@@ -1,0 +1,24 @@
+!!!
+html
+  head
+    title CPMX4 Chat
+    meta(name='viewport', content='width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1, user-scalable=no')
+    link(rel='stylesheet', href='/css/main.css')
+  body
+    .navbar.navbar-fixed-top
+      .navbar-inner
+        .container-fluid
+          ul.nav.pull-left
+            a.brand(href="/")
+              i.icon-comments
+              |  CPMX4
+            span.badge.badge-info 1
+          ul.nav.pull-right
+            li
+              a(href='#')#username
+                span #{random}
+
+    block content
+
+    script(src='/js/main.js')
+    script(src='/socket.io/socket.io.js')

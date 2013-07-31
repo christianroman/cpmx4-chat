@@ -1,0 +1,10 @@
+{
+  "name": "cpmx4-chat",
+  "version": "1.0.0",
+  "dependencies": {
+    "bootstrap": "~2.3.1",
+    "font-awesome": "~3.0.2",
+    "jquery": "~1.8.0",
+    "underscore": "~1.4.4"
+  }
+}

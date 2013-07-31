@@ -1,0 +1,16 @@
+extend layout
+
+block content
+  .container-fluid
+    .row-fluid
+        ul#messages.unstyled
+
+  script#message-template(type="text/template")
+    li
+      b <%- username %>: 
+      <%- message %>
+  
+  div#bottom
+    form
+      input#message.span8(type="text", placeholder="Mensaje", autocomplete="no")
+

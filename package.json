@@ -1,0 +1,35 @@
+{
+  "name": "cpmx4-chat",
+  "version": "1.0.0",
+  "description": "CPMX4 Chat",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chroman/cpmx4-chat.git"
+  },
+  "keywords": [
+    "cpmx4",
+    "chat",
+    "cpmx"
+  ],
+  "author": "Christian Roman <chroman16@gmail.com>",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "colors": "latest",
+    "express": "latest",
+    "grunt-contrib-concat": "latest",
+    "grunt-contrib-less": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-contrib-uglify": "latest",
+    "grunt-contrib-jshint": "latest",
+    "grunt": "latest",
+    "grunt-contrib-copy": "latest",
+    "jade": "latest",
+    "socket.io": "latest",
+    "moniker" : "latest"
+  }
+}
